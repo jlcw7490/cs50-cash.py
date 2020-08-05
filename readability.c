@@ -25,7 +25,7 @@ int main (void){
  //index = 0.0588 * L - 0.296 * S - 15.8
  float grade = 0.0588*( 100*(float)lettercount/ (float) wordcount)-0.296*(100*(float) sentencecount/(float) wordcount)-15.8;
  if (grade< 16 || grade >= 0){
-  printf("Grade: %i\n", (int) round (grade));
+  printf("Grade %i\n", (int) round (grade));
  }
   else if (grade >= 16)
     {
