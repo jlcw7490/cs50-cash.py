@@ -1,0 +1,23 @@
+
+    .title
+    {
+        text-align: center;
+        color: Blue;
+        font-family: sans-serif;
+    }
+    .subtitle
+    {
+        text-align: center;
+        color: yellow;
+    }
+    table
+    {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    td
+    {
+        border: 1px solid black;
+        padding: 5px;
+        background-color: pink;
+    }
